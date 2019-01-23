@@ -1,0 +1,515 @@
+html 
+	{
+		/* Real background on the page which repeats on the y-axis and resized based on the screen */
+		background-color: #e2e2e2;
+		background-image: url("../img/bgroundrep.png");
+		background-repeat: repeat-y;
+		background-attachment: fixed;
+				
+		/* BACKGROUND RESISEZ BASED ON THE SCREEN */
+		background-size: cover; /*standard*/
+	}
+
+body 
+	{
+		font-family: Helvetica, sans-serif;
+		font-size: 100%;
+		color: #424342;
+		
+		/*Small background part on top which was needed to cover part of the main background*/
+		background-image: url("../img/background.png");
+		background-repeat: repeat-x;
+		margin: 0%;
+		margin-top: 0%;
+		
+	}
+	
+/* EXPATILY LOGO NEXT TO NAVBAR */
+
+.logo 
+	{
+		position: relative;
+		padding-left: 12%;
+		margin: 0%;
+		margin-top: 1%;
+		margin-bottom: -1%;
+	}
+	
+
+	
+/* NAVIGATION FIRST LAYER */
+
+nav ul 
+	{
+		position: relative;
+		margin: 0%;
+		margin-top: -1%;
+		margin-bottom: -2%;
+		padding: 0%;
+		
+		text-align: center;
+		float: right;
+		width: 65%; 
+		
+		font-size: 100%;
+		font-family: bebas;
+		letter-spacing: 1px;
+		text-shadow: 2px 2px 1px rgba(0,0,0,0.5);
+		text-transform: uppercase;
+		
+		
+		border-radius: 30px 0px 0px 30px;
+		box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+			
+			/*GREDIENT NAVIGATION BAR */
+		background: linear-gradient(#111111,#3f3f3f,#111111); /* Standard */
+		
+	}
+
+nav li
+	{
+		display: inline-block;
+		list-style-type: none;
+		word-spacing: 5px;
+		border-right: 1px solid #222;
+		
+	}
+	
+.menu a 
+	{
+		color: #d3d3d3;
+		text-decoration: none;
+	}
+
+ul > li > a
+	{
+		display: block;
+		line-height: 3em;
+		padding-left: 1em;
+		padding-right: 1em;
+		text-decoration: none;
+	}
+
+
+.menu a:hover
+	{
+		background: linear-gradient(#b00e03,#8c0d05,#b00e03); /* Standard */
+	}
+
+.menu a.active
+	{
+		background: linear-gradient(#b00e03,#8c0d05,#b00e03); /* Standard */
+	}
+	
+.dropdown
+	{
+		position: absolute;
+		display: none;
+		width: 20%;
+		font-size: 80%;
+		margin-top: 1px;
+		padding-top: 3px;
+		padding-bottom: 3px;
+		color: #aaa;
+		box-shadow: 0 1px 0 #111, 0 2px 0 #666;
+		
+	}
+	
+.dropdown li 
+	{
+		display: inline-block;
+		clear: both;
+		width: 100%;
+		border-radius: 5px 5px 5px 5px;
+	}
+	
+
+.dropdown li:hover
+	{
+		display: block;
+		background: linear-gradient(#b00e03,#8c0d05,#b00e03); /* Standard */
+	}
+
+.dropdownhover:hover > .dropdown
+	{
+		display: block;
+		border-radius: 5px 5px 5px 5px;
+	}
+	
+/* LINK DIFFERENT PAGES */
+
+.where_i_am a, a
+	{	
+		color: #990000;
+		text-decoration: underline;
+	}
+	
+/* A LINK HOMEPAGE */
+	
+.continuereading a, .continuereading2 a
+	{	
+		color: #000;
+		text-decoration: none;
+	}
+
+.box2 a
+
+	{	
+		text-decoration: none;
+	}
+	
+/*MAIN PICTURE MAIN PAGE */
+	
+.indextpic 
+	{	
+		height: 100%;
+		width: 100%;
+	}
+
+/*MOTTO PARTS*/
+	
+
+h1 
+	{
+		position: absolute;
+		height: 45%;
+		width: 40%;
+		top: 32%;
+		bottom: 0;
+		right: 0;
+		left: 4.5%;
+	}
+	
+	
+.websitemotto
+	{
+		font-family: bebas;
+		text-align: left;
+		word-spacing: 6px;
+		font-size: 320%;
+		color: #f40000;
+		text-shadow: 2px 2px 1px rgba(0,0,0,1);
+		text-transform: uppercase;
+	}
+
+.whitemotto 
+	{	
+		color: #dcdcdc;
+		display: inline-block;
+	}
+
+
+/* POSTS MAIN PAGE */
+
+section
+	{
+		margin-left: 10%;
+		margin-right: 10%;
+  	}
+
+	
+h2
+	{
+		font-family: bebas;
+		font-size: 300%;
+		letter-spacing: 4px;
+		word-spacing: 4px;
+		margin-bottom: -1%;
+	}
+
+.introduction	
+	{	
+		font-family: helvetica;
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+	
+
+h2 
+	{	
+		text-align: center;
+	}
+
+/* POSTS DETAIL PAGES*/
+	
+.boldtext
+	{	
+		font-weight: bold;
+	}
+
+.subtitle
+	{	
+		font-weight: bold;
+		text-decoration: underline;
+		text-align: center;
+		font-size: 110%;
+	}
+
+.where_i_am
+
+	{	
+		font-weight: bold;
+		
+		padding-top: 2%;
+		margin-bottom: -3%;
+	}
+
+
+/* MUSEUMPLEIN */
+
+.imgpost
+
+	{	
+		text-align: center;
+		border-radius: 20px 0px 20px 0px;
+	}
+	
+/*BOXES*/
+
+.box1
+	{	
+		background-color: #01809a;
+		
+		width: 31%;
+		height: 320px;
+		
+		float:left;
+		padding-left: 10px;
+		padding-right: 3px;
+		padding-top: 3px;
+		padding-bottom: 3px;
+		margin-right: 8px;
+		margin-left: 9px;
+		}
+	
+.box2
+	{	
+		background-image: url("../img/explore.jpg");
+		background-repeat: no-repeat;
+		background-size: cover; 
+		
+		width: 31%;
+		height: 320px;
+		
+		line-height: 520px;
+		text-align: center;
+		
+		float: left;
+		padding-left: 10px;
+		padding-right: 3px;
+		padding-top: 3px;
+		padding-bottom: 3px;
+		margin-right: 8px;
+	}
+
+.box3
+	{	
+		background-color: #807800;
+		
+		width: 31%;
+		height: 322px;
+		
+		float: left;
+		padding-left: 10px;
+		padding-right: 1px;
+		padding-top: 1px;
+		padding-bottom: 3px;
+		
+	}	
+	
+.boxtitle
+	{	
+		color: #fff;
+		text-shadow: 2px 2px 1px rgba(0,0,0,1);
+		text-transform: uppercase;
+		font-family: bebas;
+		font-size: 200%;
+		margin-top: 0%;
+		margin-bottom: 0%;
+		text-align: center;
+	}	
+
+	
+.boxtitle2
+	{	
+		color: #fff;
+		text-shadow: 2px 2px 1px rgba(0,0,0,1);
+		text-transform: uppercase;
+		font-family: bebas;
+		font-size: 200%;
+	}	
+	
+.boxtext
+
+	{
+		color: #fff;
+	}
+
+.continuereading
+	{
+		font-style: italic;
+		font-weight: bold;
+		line-height: 200px;
+		text-align: center;
+	}
+	
+.continuereading2
+	{
+		font-style: italic;
+		font-weight: bold;
+		line-height: 240px;
+		text-align: center;
+	}
+
+/* CONTACT PAGE */
+
+label
+	{
+	display: inline-block;
+	text-align: left;
+	}
+	
+#submit
+
+	{
+		text-align: right;
+	}
+	
+.mandatoryfield
+
+	{
+		color: red;
+		font-style: italic;
+	}	
+	
+
+/*BEST RESTAURANTS PAGE */
+
+.post_text_list
+	{
+		padding-left: 10%;
+		padding-right: 10%;
+	}	
+
+.post_text_list2
+	{
+		padding-left: 20%;
+		padding-right: 20%;
+	}	
+	
+/* CONTACT FORM */
+
+input
+	{
+		border-radius: 5px 5px 5px 5px;
+	}
+
+textarea
+	{
+		border-radius: 15px 15px 15px 15px;
+	}
+	
+input#name, input#name, input#mail, input#phone, input#website, input#subject, input#message
+	{
+		padding-left: 1%;
+		min-height: 20px;
+		box-shadow: inset 0 0 10px #d0d0d0;
+	}
+
+.gender, .italictext
+	{
+		font-style: italic;
+	}
+	
+#gender
+	{
+		margin-left: 113px;
+		font-size: 50%;
+	}
+
+#name
+	{
+		margin-left: 72px;
+	}
+	
+#mail
+	{
+		margin-left: 45px;
+	}
+	
+#phone
+	{
+		margin-left: 16px;
+	}
+#website
+	{
+		margin-left: 55px;
+	}
+	
+#subject
+	{
+		margin-left: 89px;
+	}
+	
+#message 
+	{
+		margin-left: 83px;
+		min-height: 50%;
+		min-width: 50%;
+		box-shadow: inset 0 0 10px #d0d0d0;
+	}
+
+
+button
+	{
+		border-radius: 20px 20px 20px 20px;
+		background: linear-gradient(#c40000, #ec0000);
+		box-shadow: inset 0px 5px 0px #990000;
+		font-family: bebas;
+		font-size: 80%;
+		color: white;
+		float: right;
+		margin-right: 35%;
+		padding-bottom: 5px;
+		padding-left: 3%;
+		padding-right: 3%;
+		padding-top: 5px;
+	}
+
+
+	
+/* MAIN FOOTER */
+
+
+.ontopfooter
+	{
+		margin-bottom: 31%;
+  	}
+
+.mainfooter 
+	{	
+		position: relative;
+		text-align: center;
+		background-image: url("../img/footer.png");
+		background-repeat: repeat-x;
+		padding-top: 5%;
+		margin-bottom: 0%;
+		height: 120px;
+		line-height: 20px;
+		color: #fff;
+	}	
+
+.mainfooterdetailpage
+
+	{	
+		position: relative;
+		margin-top: 5%;
+		text-align: center;
+		background-image: url("../img/footer.png");
+		background-repeat: repeat-x;
+		padding-top: 5%;
+		margin-bottom: 0%;
+		height: 120px;
+		line-height: 20px;
+		color: #fff;
+	}	
